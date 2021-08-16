@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    width: 100%;
+}
+
+
+html {
+    font-family:  Mint-Regular;
+    font-size: 16px;
+    
+}
+
+@font-face {
+    font-family: Mint-Bold;
+    src: url(/font/MintGroteskBoldTrial.otf);
+}
+
+@font-face {
+    font-family: Mint-Italic;
+    src: url(/font/MintGroteskItalicRegularTrial.otf);
+}
+
+@font-face {
+    font-family: Mint-Regular;
+    src: url(/font/MintGroteskRegularTrial.otf);
+}
+
+@font-face {
+    font-family: Mint-Medium;
+    src: url(/font/MintGroteskMediumTrial.otf);
+}
+
+
+.login__text {
+
+    margin-top:40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__text__title{
+    font-size:45px;
+    font-family: Mint-Bold;
+    margin-bottom:10px;
+}
+
+legend{
+    color:gray;
+}
+
+form{
+    padding:30px;
+    margin-left: 10px;
+}
+
+.login__form{
+    border: none;
+    background-color: #f3f3f3;
+    border-radius:20px;
+    padding: 10px 140px 10px 30px;
+    margin: 15px 0px 30px;
+    
+    
+}
+
+.login__form__submit{
+    border: none;
+    background-color: #FF4242;
+    border-radius:20px;
+    padding: 10px 133px;
+    margin: 15px 0px 30px;
+    color: white;
+    margin-left: 0px;
+}
+
+    a{
+        padding:30px;
+    }

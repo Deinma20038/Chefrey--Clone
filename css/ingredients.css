@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    width: 100%;
+}
+
+
+html {
+    font-family:  Mint-Regular;
+    font-size: 16px;
+    
+}
+
+@font-face {
+    font-family: Mint-Bold;
+    src: url(/font/MintGroteskBoldTrial.otf);
+}
+
+@font-face {
+    font-family: Mint-Italic;
+    src: url(/font/MintGroteskItalicRegularTrial.otf);
+}
+
+@font-face {
+    font-family: Mint-Regular;
+    src: url(/font/MintGroteskRegularTrial.otf);
+}
+
+@font-face {
+    font-family: Mint-Medium;
+    src: url(/font/MintGroteskMediumTrial.otf);
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 30px;
+    align-items: center;
+}
+
+.header__image--previous{
+    width: 20px;
+    height: 20px;
+}
+
+.header__image--share{
+    width: 20px;
+    height: 20px;
+}
+
+.body__header{
+    padding: 0px 30px 20px; 
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.body__header__food{
+    width:100%;
+    margin-bottom: 40px;
+}
+
+.body__header__content{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:40px
+}
+
+.body__header__bookmark-icon{
+    width: 30px;
+    height:30px;
+    box-shadow: 4px 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+.body__header__text{
+    font-family: Mint-Bold;
+    font-size: 20px;
+}
+
+.body__header__message{
+    font-size: 11px;
+    color: #979599;
+    margin-bottom: 60px;
+}
+
+.body__ingredients{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body__ingredients--list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #F3F3F3;
+    padding: 20px 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.body__ingredients--list__text--left{
+    font-size:16px;
+    font-family: Mint-Bold;
+}
+
+.body__ingredients--list__text--right{
+    font-size:13px;
+    color:gray;
+
+}
+
+.body__procedure__message{
+    font-size: 11px;
+    margin: 40px 0px 60px;
+    line-height:20px;
+    color: #979599;
+}
+
