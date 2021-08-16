@@ -17,22 +17,22 @@ html {
 
 @font-face {
     font-family: Mint-Bold;
-    src: url(/font/MintGroteskBoldTrial.otf);
+    src: url(../font/MintGroteskBoldTrial.otf);
 }
 
 @font-face {
     font-family: Mint-Italic;
-    src: url(/font/MintGroteskItalicRegularTrial.otf);
+    src: url(../font/MintGroteskItalicRegularTrial.otf);
 }
 
 @font-face {
     font-family: Mint-Regular;
-    src: url(/font/MintGroteskRegularTrial.otf);
+    src: url(../font/MintGroteskRegularTrial.otf);
 }
 
 @font-face {
     font-family: Mint-Medium;
-    src: url(/font/MintGroteskMediumTrial.otf);
+    src: url(../font/MintGroteskMediumTrial.otf);
 }
 
 .home__bg-img{
