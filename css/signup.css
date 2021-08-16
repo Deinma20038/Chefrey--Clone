@@ -73,12 +73,28 @@ form{
     border: none;
     background-color: #FF4242;
     border-radius:20px;
-    padding: 10px 133px;
+    padding: 10px 125px;
     margin: 15px 0px 30px;
     color: white;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
     a{
         padding:30px;
+    }
+
+    @media (width:375px) {
+        form{
+            margin-left: -0px;
+        }
+
+        .login__form{
+            padding-right: 130px;
+            margin-left: -10px;
+        }
+
+        .login__form__submit{
+            padding: 10px 120px;
+            margin-left: -10px;
+        }
     }
